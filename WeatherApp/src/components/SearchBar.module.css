@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+    /**Reset para REMS**/
+    box-sizing: border-box;
+}
+h3{
+    font-size: 4rem;
+    color: #585858;
+}
+body {
+    background: url(../components/imagenes/cielo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+.inputs {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+.bar{
+    background: white;
+    border: 1px solid #393939;
+    border-radius: 15px;
+    width: 20rem;
+    height: 3.4rem;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: -100rem;
+    
+}
+.btn {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+    background-color: #71B100;
+    color: white;
+    border-radius: 18px;
+    border: 1px solid #ffffff;
+    margin-left: 2rem;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #71B100;
+    border: solid 1px #71B100;
+}
+.logo{
+    max-width: 7rem;
+}
